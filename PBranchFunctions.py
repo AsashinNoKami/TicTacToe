@@ -91,5 +91,4 @@ def verificarGanador(lista):
         print("Ganador: jugador 2.")
         return 1
     else:
-        print("No hubo ningún ganador, empate.")
         return 0

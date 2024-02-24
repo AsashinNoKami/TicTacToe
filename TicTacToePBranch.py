@@ -38,3 +38,8 @@ while x <= 9:
                 x = x + 1
     elif respuestaGanador == 1:
         break
+
+respuestaFinal = 0
+respuestaFinal = verificarGanador(listaPosiciones)
+if respuestaFinal == 0:
+    print("No hubo ganadores, empate.")
